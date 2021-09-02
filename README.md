@@ -28,8 +28,10 @@ Yes, total emissions from PM2.5 decreased in the United States from 1999 to 2008
 
 Q2.Have total emissions from PM2.5 decreased in the Baltimore City, 
 Maryland fips == "24510") 
-from 1999 to 2008? Use the base plotting system to make a plot answering this question
+from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
 ![alt text](plot2.png)
+
 Observation:
 Yes.There is an absolute decrease from the year 1999 to the year 2008 in total PM2.5 emissions in Baltimore City.
 
@@ -37,19 +39,25 @@ Q3.Of the four types of sources indicated by the type (point, nonpoint, onroad, 
 which of these four sources have seen decreases in emissions from 1999-2008
 for Baltimore City? Which have seen increases in emissions from 1999-2008? 
 Use the ggplot2 plotting system to make a plot answer this question.
-![alt text](plot2.png)
+
+![alt text](plot3.png)
+
 Observation:
 on-road, non-road, and non-point sources have all seen decreases in PM2.5 emissions from 1999-2008
 whereas point sources have seen an increase over the same time period.
 
 Q4.Across the United States, how have emissions from coal combustion-related 
 sources changed from 1999-2008?
+
 ![alt text](plot4.png)
+
 Observation:
 Emissions from coal combustion-relates sources have decreased from 1999-2008.
 
 Q5.How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
-![alt text](plot4.png)
+
+![alt text](plot5.png)
+
 Observation:
 Emissions from motor vehicle sources have declined from 1999-2008 in Baltimore City.
 
@@ -59,5 +67,6 @@ fips == "06037". Which city has seen greater changes over time in motor vehicle 
 Gather the subset of the NEI data which corresponds to vehicles.
 
 ![alt text](plot6.png)
+
 Observation:
 Motor vehicle emissions have declined in Baltimore City and increased in Los Angeles.
